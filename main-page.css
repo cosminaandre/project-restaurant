@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  padding: 0;
+  
+}
+
+#nav-barsection {
+  background-color: #212529fb;
+}
+
+.sigla-nav {
+  height: 80px;
+  width: 90px;
+  border-radius: 60px;
+  object-fit: cover;
+  margin-right: 820px ;
+  
+}
+
+.text-navbar {
+  text-indent: -430px;
+  color: #f7e7bc;
+  font-size: 35px;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  
+}
+
+.meniu-button-navbar {
+  height: 50px;
+  width: 160px;
+  border-radius: 85px;
+  margin-right: 100px;
+  background-color: rgba(36, 34, 34, 0.363);
+  border: #f7e7bc 2px solid;
+  color: #f7e7bc;
+  font-family: "Rajdhani", sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.meniu-button-navbar:hover {
+  background-color: rgba(177, 177, 177, 0.281);
+}
+
+.meniu-button-navbar:active {
+  transform: scale(0.95);
+  background-color: rgba(177, 177, 177, 0.281); 
+}
+
+#mainpage-section {
+  margin-top: 0;
+  height: 450px;
+  background-image: url(images/namour-mainimg.jpg);
+  text-align: center;
+  padding-top: 120px;
+  margin-bottom: 0;
+  margin-bottom: -110px;
+}
+
+.cyp-text {
+  color: #f7e7bc;
+  font-family: "Rajdhani", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 40px;
+}
+
+#second-cyp {
+  padding-top: 30px;
+  color: #f7e7bc;
+  font-size: 18px;
+}
+
+
+
+.menu-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+  
+}
+
+.text-content {
+  max-width: 600px;
+}
+
+
+.text-content h2 {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 21px;
+  color: #CD8D7A;
+  /*font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;*/
+}
+
+.text-content p {
+  font-size: 22px;
+  line-height: 1.5em;
+  margin-bottom: 20px;
+  margin-top: 18px;
+  color: #EAECCC;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.buttons {
+  margin-top: 30px;
+  
+  
+}
+
+.button {
+  
+  text-decoration: none;
+  color: #fff;
+  background-color: #444;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #666;
+}
+
+.image-content img {
+  width: 395PX;
+  height: 360px;
+  border-radius: 50%;
+  border: 2px dashed  #f7e7bc;
+  object-fit: cover;
+}
+
+#drinks-img {
+  object-fit: cover;
+}
+
+#pool-img {
+  object-fit: cover;
+  margin-bottom: 20px; 
+}
+
+#pics-section {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 35px;
+}
+
+#img1-text{
+color: whitesmoke;
+font-family: "Domine", serif;
+font-optical-sizing: auto;
+margin-top: 7px;
+}
+
+.img1-p {
+  color: #d4caae;
+  font-size: 15px;
+}
+
+#img3-text{
+  font-family: "Domine", serif;
+  font-optical-sizing: auto;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-top: 2px;
+}
+
+.link-pics {
+  color: whitesmoke;
+}
+
+.link-pics:hover {
+  color: rgba(91, 91, 238, 0.699);
+}
+
+.carousel-inner {
+  height: 400px;
+}
+
+.carousel-1 {
+  object-fit: cover;
+}
+
+.program {
+  color: #f7e7bc;
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 20px;
+}
+
+.program-1 {
+  color: #f7e7bc;
+  font-size: 15px;
+}
+
+.link-style {
+  color: #f7e7bc;
+}
+
+.link-style:hover {
+  color: #f7e7bc;
+  text-decoration: none;
+}
+
+@media (max-width: 750px) {
+  .element {
+  width: 350px;
+  }
+  }
+  @media (min-width: 750.02px) and (max-width: 1000px) {
+  .element {
+  width: 450px;
+  }
+  }
+  @media (min-width: 1000.02px) {
+  .element {
+  width: 600px;
+  }
+  }
+  
+
